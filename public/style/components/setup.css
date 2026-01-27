@@ -4,3 +4,9 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --bleu-compagnie: #344471;
+  --rouge-compagnie: #D80C31;
+  --gris-compagnie: #C4C3C4;
+}
