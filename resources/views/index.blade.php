@@ -18,6 +18,9 @@
     </header>
 
     <main>
+        @if(Request::is('/'))
+            @include('acceuil')
+        @endif
         @include('catalogue')
         <!--@include('canva')-->
     </main>

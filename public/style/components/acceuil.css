@@ -1,0 +1,44 @@
+.CarousselAcceuil {
+	display: flex;
+	flex-direction: row;
+	width: 935px;
+	overflow: hidden;
+}
+
+.imageCarousselAcceuil {
+	flex: 0 0 auto;
+	width: 350px;
+	height: 588px;
+	object-fit: cover;
+	animation: scrollLoop 18s linear infinite;
+}
+
+@keyframes scrollLoop {
+	to {
+		transform: translateX(calc(-350px * var(--img-count)));
+	}
+}
+
+.bienvnue {
+	gap: 5rem;
+	margin: 2rem 0 2rem 0;
+}
+
+.welcome h2 {
+    margin: 0px 0 50px 0;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: var(--bleu-lecture-hover);
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    min-width: 30%;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: var(--bleu-lecture);
+}

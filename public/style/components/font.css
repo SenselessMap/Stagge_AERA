@@ -8,3 +8,20 @@
     font-weight: 400;
     font-style: normal;
 }
+
+h1, h2, button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--bleu-lecture-hover);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--bleu-lecture);
+}

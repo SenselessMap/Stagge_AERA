@@ -3,10 +3,32 @@
 * {
   margin: 0;
   padding: 0;
+  cursor: default;
+}
+
+a, input, button {
+  cursor: pointer;
 }
 
 :root {
   --bleu-compagnie: #344471;
   --rouge-compagnie: #D80C31;
   --gris-compagnie: #C4C3C4;
+
+  --bleu-lecture: #00313D;
+  --bleu-lecture-hover: #008aab;
+
+  --bleu-de-fond: #afc0ee;
+}
+
+.row {
+  display: flex; flex-direction: row;
+}
+
+.col {
+  display: flex; flex-direction: column;
+}
+
+.centered {
+  align-items: center; justify-content: center;
 }
