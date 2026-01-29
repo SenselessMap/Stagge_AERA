@@ -18,8 +18,22 @@
         <div class="welcome col centered">
             <h1>Create your own dream</h1>
             <h2>Create professional high quality sportwear designs today!</h2>
-
             <button>Start now!</button>
+        </div>
+    </div>
+    <h1>How it works?</h1>
+    <div class="row centered">
+        <div class="col centered">
+            <div class="row centered">
+                <div class="cercle">1</div>
+                <h2>Contactez nous pour devenir partenaire</h2>
+                <p>Nous faisons affaire auprès de votre insitutions scolaires ou sportive locales et internationales</p>
+            </div>
+            <div class="row centered">
+                <div class="cercle">1</div>
+                <h2>Contactez nous pour devenir partenaire</h2>
+                <p>Nous faisons affaire auprès de votre insitutions scolaires ou sportive locales et internationales</p>
+            </div>
         </div>
     </div>
 </div>

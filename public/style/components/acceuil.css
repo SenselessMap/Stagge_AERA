@@ -3,6 +3,8 @@
 	flex-direction: row;
 	width: 935px;
 	overflow: hidden;
+    border: 4px solid black;
+    border-radius: 30px;
 }
 
 .imageCarousselAcceuil {
@@ -21,7 +23,7 @@
 
 .bienvnue {
 	gap: 5rem;
-	margin: 2rem 0 2rem 0;
+	margin: 3rem 0 5rem 0;
 }
 
 .welcome h2 {
@@ -31,7 +33,7 @@
 button {
     border: none;
     color: white;
-    background-color: var(--bleu-lecture-hover);
+    background-color: var(--rouge-compagnie);
     padding: 1.2rem;
     font-size: 1.2rem;
     border-radius: 50px;

@@ -19,6 +19,8 @@ a, input, button {
   --bleu-lecture-hover: #008aab;
 
   --bleu-de-fond: #afc0ee;
+
+  --almost-white: #F5F5F5;
 }
 
 .row {
@@ -31,4 +33,13 @@ a, input, button {
 
 .centered {
   align-items: center; justify-content: center;
+}
+
+.ligne {
+  background-color: var(--bleu-lecture);
+  height: 2px;
+  width: 75%;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
 }

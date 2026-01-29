@@ -21,8 +21,9 @@
         @if(Request::is('/'))
             @include('acceuil')
         @endif
-        @include('catalogue')
-        <!--@include('canva')-->
+        @if(Request::is('/catalogue'))
+            @include('catalogue')
+        @endif
     </main>
 
     @include('footer')
