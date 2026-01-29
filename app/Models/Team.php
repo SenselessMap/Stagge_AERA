@@ -14,7 +14,6 @@ class Team extends Model
         'order_start',
         'order_end',
     ];
-
     public function products()
     {
         return $this->belongsToMany(Product::class, 'team_products');
